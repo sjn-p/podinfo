@@ -21,7 +21,7 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
-        #env: "${entorno}"
+        env: "${entorno}"
     spec:
       containers:
       - name: podinfod
